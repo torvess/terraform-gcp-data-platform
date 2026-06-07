@@ -1,6 +1,6 @@
 # terraform-gcp-data-platform
 
-Infrastructure as Code for a GCP data platform using Terraform. This project provisions a full data platform architecture across isolated GCP projects, separating concerns between environments (dev/prd) and layers (data lake and data warehouse).
+Infrastructure as Code (IaC) for a GCP data platform using Terraform. This project provisions a full data platform architecture across isolated GCP projects, separating concerns between environments (dev/prd) and layers (data lake and data warehouse).
 
 Changes to infrastructure are managed via Pull Requests — a GitHub Actions workflow runs `terraform plan` automatically on every PR and `terraform apply` after merge, with mandatory approval before deploying to production.
 
