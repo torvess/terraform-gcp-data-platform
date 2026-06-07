@@ -8,6 +8,5 @@ module "datawarehouse" {
   data_engineer_members = [
     "user:igor.torves.sl@gmail.com",
     "user:igor.torves@grwt.com.br",
-    "user:email.teste@gmail.com",
   ]
 }
