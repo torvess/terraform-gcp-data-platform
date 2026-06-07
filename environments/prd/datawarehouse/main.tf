@@ -6,6 +6,7 @@ module "datawarehouse" {
   environment = "prd"
 
   data_engineer_members = [
-    "user:igor.torves.sl@gmail.com"
+    "user:igor.torves.sl@gmail.com",
+    "user:igor.torves@grwt.com.br"
   ]
 }
